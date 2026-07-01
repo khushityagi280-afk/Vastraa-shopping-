@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cart · Vastraa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand bg-ink shadow-sm py-2">
+    <div class="container-fluid px-3 px-lg-4">
+      <a class="navbar-brand text-white brand-word fs-3" href="index.html">
+        <img src="assets\vastraa logo.jpeg" alt="Vastraa logo" width="30" height="30" class="me-1 align-text-bottom">Vastraa
+      </a>
+
+       <form class="d-none d-md-flex mx-3 flex-grow-1" style="max-width:520px">
+        <div class="input-group">
+          <span class="input-group-text bg-white border-0">⌕</span>
+          <input class="form-control border-0" type="search" placeholder="Search for kurtas, shoes, watches…">
+          <button class="btn btn-brand" type="submit">Search</button>
+        </div>
+      </form>
+
+      <ul class="navbar-nav align-items-center gap-lg-2 ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="products.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Help</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-white position-relative" href="cart.html">
+            Cart
+            <span class="badge bg-brand rounded-pill position-absolute top-0 start-100 translate-middle">3</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container my-4">
+    <h3 class="section-title mb-4">Your Shopping Bag</h3>
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="bg-white border rounded-3 p-3 p-md-4">
+          
+            <div class="row align-items-center g-3 py-3 border-bottom">
+              <div class="col-3 col-md-2"><img src="assets\kurta set.webp" class="img-fluid rounded-2 border" alt="Ladies Cotton Kurta"></div>
+              <div class="col-9 col-md-5">
+                <div class="fw-semibold">Ladies Cotton Kurta</div>
+                <div class="text-muted small">Vastraa Ethnic · Size M</div>
+                <span class="badge bg-success-subtle text-success border border-success-subtle mt-1">In stock</span>
+              </div>
+              <div class="col-6 col-md-2">
+                <select class="form-select form-select-sm" style="max-width:90px">
+                  <option>1</option><option>1</option><option>2</option><option>3</option></select>
+              </div>
+              <div class="col-6 col-md-3 text-md-end">
+                <span class="price-now">₹1199</span>
+                <div><a href="#" class="small text-danger">Remove</a></div>
+              </div>
+            </div>
+          
+            <div class="row align-items-center g-3 py-3 border-bottom">
+              <div class="col-3 col-md-2"><img src="assets\jordan shoes.webp" class="img-fluid rounded-2 border" alt="Jordan Sneakers"></div>
+              <div class="col-9 col-md-5">
+                <div class="fw-semibold">Jordan Sneakers</div>
+                <div class="text-muted small">StepUp · Size 8</div>
+                <span class="badge bg-success-subtle text-success border border-success-subtle mt-1">In stock</span>
+              </div>
+              <div class="col-6 col-md-2">
+                <select class="form-select form-select-sm" style="max-width:90px">
+                  <option>1</option><option>1</option><option>2</option><option>3</option></select>
+              </div>
+              <div class="col-6 col-md-3 text-md-end">
+                <span class="price-now">₹1299</span>
+                <div><a href="#" class="small text-danger">Remove</a></div>
+              </div>
+            </div>
+          
+            <div class="row align-items-center g-3 py-3 border-bottom">
+              <div class="col-3 col-md-2"><img src="assets\ladies watch.webp" class="img-fluid rounded-2 border" alt="Lasies Watch"></div>
+              <div class="col-9 col-md-5">
+                <div class="fw-semibold">Ladies Watch</div>
+                <div class="text-muted small">Tempo · Size Free</div>
+                <span class="badge bg-success-subtle text-success border border-success-subtle mt-1">In stock</span>
+              </div>
+              <div class="col-6 col-md-2">
+                <select class="form-select form-select-sm" style="max-width:90px">
+                  <option>1</option><option>1</option><option>2</option><option>3</option></select>
+              </div>
+              <div class="col-6 col-md-3 text-md-end">
+                <span class="price-now">₹1799</span>
+                <div><a href="#" class="small text-danger">Remove</a></div>
+              </div>
+            </div>
+          <div class="d-flex justify-content-between pt-3">
+            <a href="products.html" class="btn btn-outline-brand">← Continue Shopping</a>
+          </div>
+        </div>
+      </div>
+
+     <div class="col-lg-4">
+        <div class="bg-white border rounded-3 p-4">
+          <h5 class="fw-bold mb-3">Order Summary</h5>
+
+           <p class="small mb-1 text-success">You&rsquo;ve unlocked FREE shipping! 🎉</p>
+          <div class="progress mb-3" style="height:8px">
+            <div class="progress-bar bg-success" style="width:100%"></div>
+          </div>
+
+          <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item d-flex justify-content-between px-0">Subtotal (3 items)<span>₹4,297</span></li>
+            <li class="list-group-item d-flex justify-content-between px-0">Discount<span class="text-success">− ₹600</span></li>
+            <li class="list-group-item d-flex justify-content-between px-0">Delivery<span class="text-success">FREE</span></li>
+            <li class="list-group-item d-flex justify-content-between px-0 fw-bold fs-5">Total<span>₹3,697</span></li>
+          </ul>
+
+           <div class="input-group mb-3">
+            <input class="form-control" placeholder="Coupon code">
+            <button class="btn btn-outline-brand">Apply</button>
+          </div>
+
+          <a href="checkout.html" class="btn btn-brand w-100 btn-lg">Proceed to Checkout</a>
+          <p class="text-center small text-muted mt-2 mb-0"> Safe & secure checkout</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <footer class="site-footer pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-4">
+          <h5 class="brand-word text-white mb-2">Vastraa<span class="dot">.</span></h5>
+          <p class="small mb-3">Wear your story. Curated fashion &amp; lifestyle for everyday India — delivered to your door.</p>
+          <!-- Newsletter: an input-group form -->
+          <div class="input-group" style="max-width:320px">
+            <input class="form-control" type="email" placeholder="Email for offers">
+            <button class="btn btn-brand" type="submit">Subscribe</button>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-uppercase small mb-3">Shop</h6>
+          <ul class="list-unstyled small lh-lg mb-0">
+            <li><a href="products.html">Men</a></li>
+            <li><a href="products.html">Women</a></li>
+            <li><a href="products.html">Footwear</a></li>
+            <li><a href="products.html">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-uppercase small mb-3">Help</h6>
+          <ul class="list-unstyled small lh-lg mb-0">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Track Order</a></li>
+            <li><a href="contact.html">Returns</a></li>
+            <li><a href="contact.html">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h6 class="text-uppercase small mb-3">We Accept</h6>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-light text-dark px-3 py-2">VISA</span>
+            <span class="badge bg-light text-dark px-3 py-2">Master</span>
+            <span class="badge bg-light text-dark px-3 py-2">UPI</span>
+            <span class="badge bg-light text-dark px-3 py-2">RuPay</span>
+            <span class="badge bg-light text-dark px-3 py-2">COD</span>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between small">
+        <span>© 2026 Vastraa Retail Pvt. Ltd. · A student capstone project.</span>
+        <span>Built with HTML5 · CSS3 · Bootstrap 5 · No JavaScript</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
